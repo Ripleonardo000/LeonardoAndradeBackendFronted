@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LeonardoAndradeBackendMVC.Migrations
 {
     [DbContext(typeof(LA_MVCContext))]
-    [Migration("20240602231009_LA_MigracionHamburgesa")]
-    partial class LA_MigracionHamburgesa
+    [Migration("20240603001731_LA_Burgers")]
+    partial class LA_Burgers
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
