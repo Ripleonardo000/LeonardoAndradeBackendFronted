@@ -15,5 +15,6 @@ namespace LeonardoAndradeBackendMVC.Models
         [Range(0.01, 9999.99)]
         public decimal Costo { get; set; }
         public List<LA_Promo>? LA_Promo { get; set; }
+        // public decimal Costo { get; set; }
     }
 }
